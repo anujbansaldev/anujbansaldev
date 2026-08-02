@@ -1,0 +1,28 @@
+# Anuj Bansal — Full Stack Developer & Software Engineer
+
+> High-Performance Web Applications, Next.js 15, MERN Architecture & DevOps Systems
+
+## Profile Summary
+Anuj Bansal is a Full Stack Next.js Developer, MERN Engineer, and Software Specialist based in Indore, India. He builds scalable web applications, custom Payload CMS backends, interactive user dashboards, and secure Linux/Nginx server infrastructure.
+
+## Key Capabilities & Stack
+- **Frontend & UX**: Next.js 15, React, TypeScript, Tailwind CSS, Performance Optimization (90+ Lighthouse).
+- **Backend & APIs**: Node.js, Express.js, Payload CMS, RESTful & GraphQL APIs, Role-Based Access Control (RBAC).
+- **Database & Storage**: MongoDB, PostgreSQL, Prisma, Redis.
+- **DevOps & Infrastructure**: Linux (Ubuntu/Debian), Nginx reverse proxy, PM2 fleet management, Docker, SSL security.
+
+## Core Services
+1. **Full Stack Web Applications & SaaS**: End-to-end web apps with authentication, dynamic databases, and RBAC.
+2. **Custom Business Websites**: High-speed Next.js websites built for lead generation and search engine indexing.
+3. **Headless Payload CMS Solutions**: Type-safe CMS integrations empowering non-technical team management.
+4. **DevOps & Nginx Optimization**: Server administration, security hardening, and 99.9% uptime monitoring.
+
+## Canonical Pages & Links
+- **Homepage**: https://anujbansaldev.in
+- **About**: https://anujbansaldev.in/about
+- **Work & Case Studies**: https://anujbansaldev.in/work
+- **Freelance Services**: https://anujbansaldev.in/services
+- **Blog & Technical Articles**: https://anujbansaldev.in/blog
+- **Contact & Meeting Booking**: https://anujbansaldev.in/contact
+- **GitHub**: https://github.com/Anujbansal527
+- **LinkedIn**: https://linkedin.com/in/anujbansal527

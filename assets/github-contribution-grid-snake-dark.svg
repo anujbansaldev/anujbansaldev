@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 140" width="100%" height="140">
+  <rect width="850" height="140" fill="#111111" rx="8" />
+  
+  <style>
+    .dot { rx: 2px; ry: 2px; width: 11px; height: 11px; }
+    .c0 { fill: #1C1A16; }
+    .c1 { fill: #4D3A12; }
+    .c2 { fill: #9A6F1A; }
+    .c3 { fill: #D4A63A; }
+    .c4 { fill: #EAD68C; }
+    .snake { fill: #D4A63A; stroke: #FFFFFF; stroke-width: 1px; filter: drop-shadow(0 0 3px #D4A63A); }
+    .snake-head { fill: #EAD68C; stroke: #FFFFFF; stroke-width: 1.5px; filter: drop-shadow(0 0 5px #D4A63A); }
+  </style>
+
+  <g transform="translate(15, 15)">
+    <!-- Simulated contribution grid columns -->
+    <!-- Column 1-5 -->
+    <rect x="0" y="0" class="dot c0"/><rect x="0" y="15" class="dot c1"/><rect x="0" y="30" class="dot c0"/><rect x="0" y="45" class="dot c2"/><rect x="0" y="60" class="dot c0"/><rect x="0" y="75" class="dot c0"/><rect x="0" y="90" class="dot c0"/>
+    <rect x="15" y="0" class="dot c0"/><rect x="15" y="15" class="dot c0"/><rect x="15" y="30" class="dot c2"/><rect x="15" y="45" class="dot c3"/><rect x="15" y="60" class="dot c1"/><rect x="15" y="75" class="dot c0"/><rect x="15" y="90" class="dot c0"/>
+    <rect x="30" y="0" class="dot c1"/><rect x="30" y="15" class="dot c2"/><rect x="30" y="30" class="dot c3"/><rect x="30" y="45" class="dot c4"/><rect x="30" y="60" class="dot c2"/><rect x="30" y="75" class="dot c0"/><rect x="30" y="90" class="dot c0"/>
+    <rect x="45" y="0" class="dot c0"/><rect x="45" y="15" class="dot c0"/><rect x="45" y="30" class="dot c1"/><rect x="45" y="45" class="dot c3"/><rect x="45" y="60" class="dot c3"/><rect x="45" y="75" class="dot c1"/><rect x="45" y="90" class="dot c0"/>
+    <rect x="60" y="0" class="dot c0"/><rect x="60" y="15" class="dot c1"/><rect x="60" y="30" class="dot c0"/><rect x="60" y="45" class="dot c2"/><rect x="60" y="60" class="dot c4"/><rect x="60" y="75" class="dot c2"/><rect x="60" y="90" class="dot c0"/>
+    
+    <!-- Repeated grid pattern across weeks -->
+    <g transform="translate(75, 0)">
+      <rect x="0" y="0" class="dot c2"/><rect x="0" y="15" class="dot c3"/><rect x="0" y="30" class="dot c1"/><rect x="0" y="45" class="dot c0"/><rect x="0" y="60" class="dot c0"/><rect x="0" y="75" class="dot c2"/><rect x="0" y="90" class="dot c1"/>
+      <rect x="15" y="0" class="dot c3"/><rect x="15" y="15" class="dot c4"/><rect x="15" y="30" class="dot c2"/><rect x="15" y="45" class="dot c1"/><rect x="15" y="60" class="dot c0"/><rect x="15" y="75" class="dot c3"/><rect x="15" y="90" class="dot c2"/>
+      <rect x="30" y="0" class="dot c1"/><rect x="30" y="15" class="dot c2"/><rect x="30" y="30" class="dot c3"/><rect x="30" y="45" class="dot c4"/><rect x="30" y="60" class="dot c1"/><rect x="30" y="75" class="dot c0"/><rect x="30" y="90" class="dot c0"/>
+      <rect x="45" y="0" class="dot c0"/><rect x="45" y="15" class="dot c1"/><rect x="45" y="30" class="dot c2"/><rect x="45" y="45" class="dot c3"/><rect x="45" y="60" class="dot c2"/><rect x="45" y="75" class="dot c1"/><rect x="45" y="90" class="dot c0"/>
+      <rect x="60" y="0" class="dot c1"/><rect x="60" y="15" class="dot c3"/><rect x="60" y="30" class="dot c4"/><rect x="60" y="45" class="dot c2"/><rect x="60" y="60" class="dot c0"/><rect x="60" y="75" class="dot c0"/><rect x="60" y="90" class="dot c1"/>
+    </g>
+
+    <g transform="translate(150, 0)">
+      <rect x="0" y="0" class="dot c0"/><rect x="0" y="15" class="dot c1"/><rect x="0" y="30" class="dot c3"/><rect x="0" y="45" class="dot c4"/><rect x="0" y="60" class="dot c2"/><rect x="0" y="75" class="dot c0"/><rect x="0" y="90" class="dot c0"/>
+      <rect x="15" y="0" class="dot c1"/><rect x="15" y="15" class="dot c2"/><rect x="15" y="30" class="dot c3"/><rect x="15" y="45" class="dot c2"/><rect x="15" y="60" class="dot c1"/><rect x="15" y="75" class="dot c0"/><rect x="15" y="90" class="dot c0"/>
+      <rect x="30" y="0" class="dot c2"/><rect x="30" y="15" class="dot c4"/><rect x="30" y="30" class="dot c3"/><rect x="30" y="45" class="dot c1"/><rect x="30" y="60" class="dot c0"/><rect x="30" y="75" class="dot c2"/><rect x="30" y="90" class="dot c1"/>
+      <rect x="45" y="0" class="dot c3"/><rect x="45" y="15" class="dot c3"/><rect x="45" y="30" class="dot c2"/><rect x="45" y="45" class="dot c0"/><rect x="45" y="60" class="dot c1"/><rect x="45" y="75" class="dot c3"/><rect x="45" y="90" class="dot c2"/>
+      <rect x="60" y="0" class="dot c0"/><rect x="60" y="15" class="dot c1"/><rect x="60" y="30" class="dot c0"/><rect x="60" y="45" class="dot c2"/><rect x="60" y="60" class="dot c4"/><rect x="60" y="75" class="dot c2"/><rect x="60" y="90" class="dot c0"/>
+    </g>
+
+    <g transform="translate(225, 0)">
+      <rect x="0" y="0" class="dot c1"/><rect x="0" y="15" class="dot c2"/><rect x="0" y="30" class="dot c3"/><rect x="0" y="45" class="dot c4"/><rect x="0" y="60" class="dot c2"/><rect x="0" y="75" class="dot c1"/><rect x="0" y="90" class="dot c0"/>
+      <rect x="15" y="0" class="dot c2"/><rect x="15" y="15" class="dot c3"/><rect x="15" y="30" class="dot c4"/><rect x="15" y="45" class="dot c3"/><rect x="15" y="60" class="dot c1"/><rect x="15" y="75" class="dot c0"/><rect x="15" y="90" class="dot c0"/>
+      <rect x="30" y="0" class="dot c0"/><rect x="30" y="15" class="dot c1"/><rect x="30" y="30" class="dot c2"/><rect x="30" y="45" class="dot c3"/><rect x="30" y="60" class="dot c2"/><rect x="30" y="75" class="dot c1"/><rect x="30" y="90" class="dot c0"/>
+      <rect x="45" y="0" class="dot c1"/><rect x="45" y="15" class="dot c2"/><rect x="45" y="30" class="dot c4"/><rect x="45" y="45" class="dot c4"/><rect x="45" y="60" class="dot c3"/><rect x="45" y="75" class="dot c2"/><rect x="45" y="90" class="dot c1"/>
+      <rect x="60" y="0" class="dot c2"/><rect x="60" y="15" class="dot c3"/><rect x="60" y="30" class="dot c3"/><rect x="60" y="45" class="dot c2"/><rect x="60" y="60" class="dot c1"/><rect x="60" y="75" class="dot c0"/><rect x="60" y="90" class="dot c0"/>
+    </g>
+
+    <g transform="translate(300, 0)">
+      <rect x="0" y="0" class="dot c0"/><rect x="0" y="15" class="dot c1"/><rect x="0" y="30" class="dot c3"/><rect x="0" y="45" class="dot c4"/><rect x="0" y="60" class="dot c2"/><rect x="0" y="75" class="dot c0"/><rect x="0" y="90" class="dot c0"/>
+      <rect x="15" y="0" class="dot c1"/><rect x="15" y="15" class="dot c2"/><rect x="15" y="30" class="dot c3"/><rect x="15" y="45" class="dot c2"/><rect x="15" y="60" class="dot c1"/><rect x="15" y="75" class="dot c0"/><rect x="15" y="90" class="dot c0"/>
+      <rect x="30" y="0" class="dot c2"/><rect x="30" y="15" class="dot c4"/><rect x="30" y="30" class="dot c3"/><rect x="30" y="45" class="dot c1"/><rect x="30" y="60" class="dot c0"/><rect x="30" y="75" class="dot c2"/><rect x="30" y="90" class="dot c1"/>
+      <rect x="45" y="0" class="dot c3"/><rect x="45" y="15" class="dot c3"/><rect x="45" y="30" class="dot c2"/><rect x="45" y="45" class="dot c0"/><rect x="45" y="60" class="dot c1"/><rect x="45" y="75" class="dot c3"/><rect x="45" y="90" class="dot c2"/>
+      <rect x="60" y="0" class="dot c0"/><rect x="60" y="15" class="dot c1"/><rect x="60" y="30" class="dot c0"/><rect x="60" y="45" class="dot c2"/><rect x="60" y="60" class="dot c4"/><rect x="60" y="75" class="dot c2"/><rect x="60" y="90" class="dot c0"/>
+    </g>
+
+    <g transform="translate(375, 0)">
+      <rect x="0" y="0" class="dot c2"/><rect x="0" y="15" class="dot c3"/><rect x="0" y="30" class="dot c1"/><rect x="0" y="45" class="dot c0"/><rect x="0" y="60" class="dot c0"/><rect x="0" y="75" class="dot c2"/><rect x="0" y="90" class="dot c1"/>
+      <rect x="15" y="0" class="dot c3"/><rect x="15" y="15" class="dot c4"/><rect x="15" y="30" class="dot c2"/><rect x="15" y="45" class="dot c1"/><rect x="15" y="60" class="dot c0"/><rect x="15" y="75" class="dot c3"/><rect x="15" y="90" class="dot c2"/>
+      <rect x="30" y="0" class="dot c1"/><rect x="30" y="15" class="dot c2"/><rect x="30" y="30" class="dot c3"/><rect x="30" y="45" class="dot c4"/><rect x="30" y="60" class="dot c1"/><rect x="30" y="75" class="dot c0"/><rect x="30" y="90" class="dot c0"/>
+      <rect x="45" y="0" class="dot c0"/><rect x="45" y="15" class="dot c1"/><rect x="45" y="30" class="dot c2"/><rect x="45" y="45" class="dot c3"/><rect x="45" y="60" class="dot c2"/><rect x="45" y="75" class="dot c1"/><rect x="45" y="90" class="dot c0"/>
+      <rect x="60" y="0" class="dot c1"/><rect x="60" y="15" class="dot c3"/><rect x="60" y="30" class="dot c4"/><rect x="60" y="45" class="dot c2"/><rect x="60" y="60" class="dot c0"/><rect x="60" y="75" class="dot c0"/><rect x="60" y="90" class="dot c1"/>
+    </g>
+
+    <g transform="translate(450, 0)">
+      <rect x="0" y="0" class="dot c1"/><rect x="0" y="15" class="dot c2"/><rect x="0" y="30" class="dot c3"/><rect x="0" y="45" class="dot c4"/><rect x="0" y="60" class="dot c2"/><rect x="0" y="75" class="dot c1"/><rect x="0" y="90" class="dot c0"/>
+      <rect x="15" y="0" class="dot c2"/><rect x="15" y="15" class="dot c3"/><rect x="15" y="30" class="dot c4"/><rect x="15" y="45" class="dot c3"/><rect x="15" y="60" class="dot c1"/><rect x="15" y="75" class="dot c0"/><rect x="15" y="90" class="dot c0"/>
+      <rect x="30" y="0" class="dot c0"/><rect x="30" y="15" class="dot c1"/><rect x="30" y="30" class="dot c2"/><rect x="30" y="45" class="dot c3"/><rect x="30" y="60" class="dot c2"/><rect x="30" y="75" class="dot c1"/><rect x="30" y="90" class="dot c0"/>
+      <rect x="45" y="0" class="dot c1"/><rect x="45" y="15" class="dot c2"/><rect x="45" y="30" class="dot c4"/><rect x="45" y="45" class="dot c4"/><rect x="45" y="60" class="dot c3"/><rect x="45" y="75" class="dot c2"/><rect x="45" y="90" class="dot c1"/>
+      <rect x="60" y="0" class="dot c2"/><rect x="60" y="15" class="dot c3"/><rect x="60" y="30" class="dot c3"/><rect x="60" y="45" class="dot c2"/><rect x="60" y="60" class="dot c1"/><rect x="60" y="75" class="dot c0"/><rect x="60" y="90" class="dot c0"/>
+    </g>
+
+    <g transform="translate(525, 0)">
+      <rect x="0" y="0" class="dot c0"/><rect x="0" y="15" class="dot c1"/><rect x="0" y="30" class="dot c3"/><rect x="0" y="45" class="dot c4"/><rect x="0" y="60" class="dot c2"/><rect x="0" y="75" class="dot c0"/><rect x="0" y="90" class="dot c0"/>
+      <rect x="15" y="0" class="dot c1"/><rect x="15" y="15" class="dot c2"/><rect x="15" y="30" class="dot c3"/><rect x="15" y="45" class="dot c2"/><rect x="15" y="60" class="dot c1"/><rect x="15" y="75" class="dot c0"/><rect x="15" y="90" class="dot c0"/>
+      <rect x="30" y="0" class="dot c2"/><rect x="30" y="15" class="dot c4"/><rect x="30" y="30" class="dot c3"/><rect x="30" y="45" class="dot c1"/><rect x="30" y="60" class="dot c0"/><rect x="30" y="75" class="dot c2"/><rect x="30" y="90" class="dot c1"/>
+      <rect x="45" y="0" class="dot c3"/><rect x="45" y="15" class="dot c3"/><rect x="45" y="30" class="dot c2"/><rect x="45" y="45" class="dot c0"/><rect x="45" y="60" class="dot c1"/><rect x="45" y="75" class="dot c3"/><rect x="45" y="90" class="dot c2"/>
+      <rect x="60" y="0" class="dot c0"/><rect x="60" y="15" class="dot c1"/><rect x="60" y="30" class="dot c0"/><rect x="60" y="45" class="dot c2"/><rect x="60" y="60" class="dot c4"/><rect x="60" y="75" class="dot c2"/><rect x="60" y="90" class="dot c0"/>
+    </g>
+
+    <g transform="translate(600, 0)">
+      <rect x="0" y="0" class="dot c1"/><rect x="0" y="15" class="dot c2"/><rect x="0" y="30" class="dot c3"/><rect x="0" y="45" class="dot c4"/><rect x="0" y="60" class="dot c2"/><rect x="0" y="75" class="dot c1"/><rect x="0" y="90" class="dot c0"/>
+      <rect x="15" y="0" class="dot c2"/><rect x="15" y="15" class="dot c3"/><rect x="15" y="30" class="dot c4"/><rect x="15" y="45" class="dot c3"/><rect x="15" y="60" class="dot c1"/><rect x="15" y="75" class="dot c0"/><rect x="15" y="90" class="dot c0"/>
+      <rect x="30" y="0" class="dot c0"/><rect x="30" y="15" class="dot c1"/><rect x="30" y="30" class="dot c2"/><rect x="30" y="45" class="dot c3"/><rect x="30" y="60" class="dot c2"/><rect x="30" y="75" class="dot c1"/><rect x="30" y="90" class="dot c0"/>
+      <rect x="45" y="0" class="dot c1"/><rect x="45" y="15" class="dot c2"/><rect x="45" y="30" class="dot c4"/><rect x="45" y="45" class="dot c4"/><rect x="45" y="60" class="dot c3"/><rect x="45" y="75" class="dot c2"/><rect x="45" y="90" class="dot c1"/>
+      <rect x="60" y="0" class="dot c2"/><rect x="60" y="15" class="dot c3"/><rect x="60" y="30" class="dot c3"/><rect x="60" y="45" class="dot c2"/><rect x="60" y="60" class="dot c1"/><rect x="60" y="75" class="dot c0"/><rect x="60" y="90" class="dot c0"/>
+    </g>
+
+    <g transform="translate(675, 0)">
+      <rect x="0" y="0" class="dot c2"/><rect x="0" y="15" class="dot c3"/><rect x="0" y="30" class="dot c1"/><rect x="0" y="45" class="dot c0"/><rect x="0" y="60" class="dot c0"/><rect x="0" y="75" class="dot c2"/><rect x="0" y="90" class="dot c1"/>
+      <rect x="15" y="0" class="dot c3"/><rect x="15" y="15" class="dot c4"/><rect x="15" y="30" class="dot c2"/><rect x="15" y="45" class="dot c1"/><rect x="15" y="60" class="dot c0"/><rect x="15" y="75" class="dot c3"/><rect x="15" y="90" class="dot c2"/>
+      <rect x="30" y="0" class="dot c1"/><rect x="30" y="15" class="dot c2"/><rect x="30" y="30" class="dot c3"/><rect x="30" y="45" class="dot c4"/><rect x="30" y="60" class="dot c1"/><rect x="30" y="75" class="dot c0"/><rect x="30" y="90" class="dot c0"/>
+      <rect x="45" y="0" class="dot c0"/><rect x="45" y="15" class="dot c1"/><rect x="45" y="30" class="dot c2"/><rect x="45" y="45" class="dot c3"/><rect x="45" y="60" class="dot c2"/><rect x="45" y="75" class="dot c1"/><rect x="45" y="90" class="dot c0"/>
+      <rect x="60" y="0" class="dot c1"/><rect x="60" y="15" class="dot c3"/><rect x="60" y="30" class="dot c4"/><rect x="60" y="45" class="dot c2"/><rect x="60" y="60" class="dot c0"/><rect x="60" y="75" class="dot c0"/><rect x="60" y="90" class="dot c1"/>
+    </g>
+
+    <!-- Animated / Overlay Gold Snake Path -->
+    <rect x="675" y="45" class="dot snake"/>
+    <rect x="690" y="45" class="dot snake"/>
+    <rect x="705" y="45" class="dot snake"/>
+    <rect x="720" y="45" class="dot snake"/>
+    <rect x="720" y="60" class="dot snake"/>
+    <rect x="735" y="60" class="dot snake-head"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+/* TEAM */
+  Software Engineer & Full Stack Developer: Anuj Bansal
+  Site: https://anujbansaldev.in
+  Contact: anujbansal527@gmail.com
+  Location: Indore, Madhya Pradesh, India
+  GitHub: https://github.com/anujbansaldev527
+  LinkedIn: https://linkedin.com/in/anujbansaldev
+
+/* SITE */
+  Framework: Next.js 15 (App Router)
+  React Version: React 19
+  Language: TypeScript (Strict Mode)
+  CMS: Payload CMS 3.x (Headless)
+  Database: MongoDB Atlas
+  Styling: Vanilla CSS & Tailwind CSS
+  Animations: GSAP, Framer Motion, Three.js
+  Hosting: Vercel
+  CDN: Cloudinary / Vercel Edge CDN
+  Standards: HTML5, W3C Schema.org, WCAG AA, Technical SEO
